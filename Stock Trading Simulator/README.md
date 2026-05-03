@@ -67,17 +67,17 @@ StockTradingSimulator/
 ---
 
 ## Available Commands
-market              - update prices and show market
-prices              - show current prices
-buy <sym> <qty>     - buy quantity of symbol
-sell <sym> <qty>    - sell quantity of symbol
-portfolio           - show portfolio and P/L
-history             - show transaction history
-strategy <name> [n] - run strategy (random|dip) n times
-deposit <amount>    - deposit funds
-save                - save portfolio & transactions
-load                - load saved data
-exit                - save and exit
+- market - update prices and show market
+- prices - show current prices
+- buy <sym> <qty> - buy quantity of symbol
+- sell <sym> <qty> - sell quantity of symbol
+- portfolio - show portfolio and P/L
+- history - show transaction history
+- strategy <name> [n] - run strategy (random|dip) n times
+- deposit <amount> - deposit funds
+- save - save portfolio & transactions
+- load - load saved data
+- exit - save and exit
 
 ---
 
@@ -96,8 +96,11 @@ exit                - save and exit
 3. Press F5  
 
 ### Using CLI
-dotnet build
-dotnet run
+- dotnet build
+- dotnet run
+
+### Using Docker
+- docker run --rm -it stock-sim
 
 ---
 
